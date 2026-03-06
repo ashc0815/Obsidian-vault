@@ -1,0 +1,224 @@
+{
+  "nodes": [
+    {
+      "id": "a1b2c3d4e5f60001",
+      "type": "text",
+      "x": 0,
+      "y": -200,
+      "width": 360,
+      "height": 100,
+      "color": "6",
+      "text": "# 🎬 内部视频脚本 Draft 流程\n任务：分析5个YouTube视频 → 生成内部培训视频脚本"
+    },
+    {
+      "id": "a1b2c3d4e5f60002",
+      "type": "group",
+      "x": -520,
+      "y": -50,
+      "width": 500,
+      "height": 420,
+      "label": "📥 输入：5个视频字幕",
+      "color": "5"
+    },
+    {
+      "id": "a1b2c3d4e5f60003",
+      "type": "text",
+      "x": -500,
+      "y": 0,
+      "width": 460,
+      "height": 60,
+      "text": "1️⃣ OpenClaw Full Tutorial for Beginners\n— 安装部署 + 安全配置 + 首次对话"
+    },
+    {
+      "id": "a1b2c3d4e5f60004",
+      "type": "text",
+      "x": -500,
+      "y": 70,
+      "width": 460,
+      "height": 60,
+      "text": "2️⃣ OpenClaw Tutorial - Crash Course\n— 快速上手 + WhatsApp/Telegram + Zapier MCP"
+    },
+    {
+      "id": "a1b2c3d4e5f60005",
+      "type": "text",
+      "x": -500,
+      "y": 140,
+      "width": 460,
+      "height": 60,
+      "text": "3️⃣ 6 Use Cases That Change Your Life\n— 第二大脑 + 早报 + 内容工厂 + 目标追踪"
+    },
+    {
+      "id": "a1b2c3d4e5f60006",
+      "type": "text",
+      "x": -500,
+      "y": 210,
+      "width": 460,
+      "height": 60,
+      "text": "4️⃣ My Multi-Agent Team\n— 多Agent团队 + Slack + 自定义Dashboard"
+    },
+    {
+      "id": "a1b2c3d4e5f60007",
+      "type": "text",
+      "x": -500,
+      "y": 280,
+      "width": 460,
+      "height": 60,
+      "text": "5️⃣ 21 INSANE Use Cases\n— CRM + 知识库 + 安全审计 + 自我进化"
+    },
+    {
+      "id": "a1b2c3d4e5f60008",
+      "type": "group",
+      "x": 80,
+      "y": -50,
+      "width": 400,
+      "height": 420,
+      "label": "🔍 分析 & 提炼",
+      "color": "3"
+    },
+    {
+      "id": "a1b2c3d4e5f60009",
+      "type": "text",
+      "x": 100,
+      "y": 0,
+      "width": 360,
+      "height": 80,
+      "text": "**共性提炼**\n- Demo驱动 > 说教\n- 从简单到复杂\n- 强调「省时间」的具体数字\n- 个人故事增加可信度"
+    },
+    {
+      "id": "a1b2c3d4e5f60010",
+      "type": "text",
+      "x": 100,
+      "y": 100,
+      "width": 360,
+      "height": 80,
+      "text": "**结合Ashley背景**\n- SAP Concur Partner\n- ANZ市场拓展\n- 飞书深度用户\n- LinkedIn lead generation"
+    },
+    {
+      "id": "a1b2c3d4e5f60011",
+      "type": "text",
+      "x": 100,
+      "y": 200,
+      "width": 360,
+      "height": 80,
+      "text": "**确认需求**\n- 受众：同事+老板\n- 目的：展示效率提升+启发思考\n- 案例：飞书skills + cold email + LinkedIn"
+    },
+    {
+      "id": "a1b2c3d4e5f60012",
+      "type": "text",
+      "x": 100,
+      "y": 300,
+      "width": 360,
+      "height": 50,
+      "text": "**记忆搜索**\n搜索cold email/LinkedIn案例 → 未找到 → 请主人补充"
+    },
+    {
+      "id": "a1b2c3d4e5f60013",
+      "type": "group",
+      "x": 580,
+      "y": -50,
+      "width": 420,
+      "height": 420,
+      "label": "📤 输出：视频脚本 v1",
+      "color": "4"
+    },
+    {
+      "id": "a1b2c3d4e5f60014",
+      "type": "text",
+      "x": 600,
+      "y": 0,
+      "width": 380,
+      "height": 50,
+      "text": "**Part 1** 开场Hook（1min）\n「你每天花多少时间在重复性工作上？」"
+    },
+    {
+      "id": "a1b2c3d4e5f60015",
+      "type": "text",
+      "x": 600,
+      "y": 60,
+      "width": 380,
+      "height": 50,
+      "text": "**Part 2** OpenClaw极简介绍（0.5min）\n零技术术语，类比讲解"
+    },
+    {
+      "id": "a1b2c3d4e5f60016",
+      "type": "text",
+      "x": 600,
+      "y": 120,
+      "width": 380,
+      "height": 80,
+      "text": "**Part 3** 三个实战Demo（4.5min）\n① 飞书一句话更新文档\n② Cold Email draft\n③ LinkedIn Post 一条龙"
+    },
+    {
+      "id": "a1b2c3d4e5f60017",
+      "type": "text",
+      "x": 600,
+      "y": 210,
+      "width": 380,
+      "height": 60,
+      "text": "**Part 4** 团队意义（2min）\n省时间 → 提质量 → 释放脑力"
+    },
+    {
+      "id": "a1b2c3d4e5f60018",
+      "type": "text",
+      "x": 600,
+      "y": 280,
+      "width": 380,
+      "height": 60,
+      "text": "**Part 5** 思考框架（1min）\n三个问题让同事自己想应用场景"
+    },
+    {
+      "id": "a1b2c3d4e5f60019",
+      "type": "text",
+      "x": 600,
+      "y": 350,
+      "width": 380,
+      "height": 50,
+      "text": "**Part 6** 收尾（0.5min）\n开放式邀请，总时长 ~9.5min"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1b2c3d4e5f60001",
+      "fromNode": "a1b2c3d4e5f60001",
+      "fromSide": "bottom",
+      "toNode": "a1b2c3d4e5f60002",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "输入"
+    },
+    {
+      "id": "e1b2c3d4e5f60002",
+      "fromNode": "a1b2c3d4e5f60001",
+      "fromSide": "bottom",
+      "toNode": "a1b2c3d4e5f60008",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "处理"
+    },
+    {
+      "id": "e1b2c3d4e5f60003",
+      "fromNode": "a1b2c3d4e5f60001",
+      "fromSide": "bottom",
+      "toNode": "a1b2c3d4e5f60013",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "输出"
+    },
+    {
+      "id": "e1b2c3d4e5f60004",
+      "fromNode": "a1b2c3d4e5f60002",
+      "fromSide": "right",
+      "toNode": "a1b2c3d4e5f60008",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e1b2c3d4e5f60005",
+      "fromNode": "a1b2c3d4e5f60008",
+      "fromSide": "right",
+      "toNode": "a1b2c3d4e5f60013",
+      "toSide": "left",
+      "toEnd": "arrow"
+    }
+  ]
+}
