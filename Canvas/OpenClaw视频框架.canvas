@@ -1,0 +1,341 @@
+{
+  "nodes": [
+    {
+      "id": "a0b1c2d3e4f50001",
+      "type": "group",
+      "x": -100,
+      "y": -100,
+      "width": 2800,
+      "height": 600,
+      "label": "Part 1：小龙虾是什么？架构图 (0:40-4:00)",
+      "color": "4"
+    },
+    {
+      "id": "a0b1c2d3e4f50002",
+      "type": "group",
+      "x": -100,
+      "y": 600,
+      "width": 2800,
+      "height": 500,
+      "label": "Part 2：我用 OpenClaw 做了什么 (4:00-6:30)",
+      "color": "5"
+    },
+    {
+      "id": "a0b1c2d3e4f50003",
+      "type": "group",
+      "x": -100,
+      "y": 1200,
+      "width": 2800,
+      "height": 500,
+      "label": "Part 3：安全性 — 三种部署方式 (6:30-8:30)",
+      "color": "1"
+    },
+    {
+      "id": "a0b1c2d3e4f50004",
+      "type": "group",
+      "x": -100,
+      "y": 1800,
+      "width": 2800,
+      "height": 400,
+      "label": "Part 4：Skills 生态 + Ending (8:30-10:00)",
+      "color": "6"
+    },
+    {
+      "id": "f1a2b3c4d5e60001",
+      "type": "text",
+      "x": -500,
+      "y": 100,
+      "width": 320,
+      "height": 300,
+      "color": "2",
+      "text": "# 🎬 开场 Hook\n**0:00 - 0:40**\n\n- 想象你有一个 24h 待命的数字员工\n- 不是聊天机器人，是真正干活的 Agent\n- 它叫 OpenClaw，一只开源 AI 小龙虾\n- 10 分钟让你彻底搞懂\n\n🎥 **风格**: NetworkChuck 式高能开场"
+    },
+    {
+      "id": "f1a2b3c4d5e60010",
+      "type": "text",
+      "x": 0,
+      "y": 0,
+      "width": 300,
+      "height": 200,
+      "color": "4",
+      "text": "# ① Gateway\n**前台接待**\n\n飞书/Telegram/WhatsApp/Slack\n所有消息的入口和出口\n不用装新 App"
+    },
+    {
+      "id": "f1a2b3c4d5e60011",
+      "type": "text",
+      "x": 380,
+      "y": 0,
+      "width": 300,
+      "height": 200,
+      "color": "4",
+      "text": "# ② LLM 大脑\n**智商决定上限**\n\n- Claude Opus：聪明但贵\n- Sonnet：性价比高\n- 本地 Llama：免费但弱\n\n模型 = 小龙虾的智商"
+    },
+    {
+      "id": "f1a2b3c4d5e60012",
+      "type": "text",
+      "x": 760,
+      "y": 0,
+      "width": 300,
+      "height": 200,
+      "color": "3",
+      "text": "# ③ SOUL.md ⭐\n**灵魂文件**\n\n定义 AI 的性格和行为边界\n我的豆宝：\n- 真正帮忙不装模作样\n- 有自己的观点\n- 先自己解决再问"
+    },
+    {
+      "id": "f1a2b3c4d5e60013",
+      "type": "text",
+      "x": 1140,
+      "y": 0,
+      "width": 300,
+      "height": 200,
+      "color": "3",
+      "text": "# ④ MEMORY.md ⭐\n**记忆系统**\n\n与 ChatGPT 最大区别：\n记忆写在文件里，持久化\n- 记得你的名字、项目、偏好\n- 自己更新记忆\n- 今天的教训明天还记得"
+    },
+    {
+      "id": "f1a2b3c4d5e60014",
+      "type": "text",
+      "x": 1520,
+      "y": 0,
+      "width": 300,
+      "height": 200,
+      "color": "3",
+      "text": "# ⑤ Heartbeat ⭐\n**心跳系统**\n\n定时自己醒来检查任务\n例：每天 8:30 推送新闻摘要\n\n真正的 Agent：\n主动干活 ≠ 被动等指令"
+    },
+    {
+      "id": "f1a2b3c4d5e60015",
+      "type": "text",
+      "x": 1900,
+      "y": 0,
+      "width": 300,
+      "height": 200,
+      "color": "4",
+      "text": "# ⑥ Skills\n**技能插件**\n\nClawHub 13000+ 社区技能\n装上就能用：\n- 天气查询\n- LinkedIn 发帖\n- 视频字幕\n- 代码审查"
+    },
+    {
+      "id": "f1a2b3c4d5e60016",
+      "type": "text",
+      "x": 2300,
+      "y": 0,
+      "width": 350,
+      "height": 200,
+      "color": "2",
+      "text": "# 🆚 vs Claude Code / Codex\n\nClaude Code & Codex = 专注写代码\nOpenClaw = 全能型助手\n\n它能调用 Claude Code 写代码\n还能发邮件、管文档、做自动化\n\n**OpenClaw 是指挥官，不是士兵**"
+    },
+    {
+      "id": "f1a2b3c4d5e60020",
+      "type": "text",
+      "x": 0,
+      "y": 700,
+      "width": 400,
+      "height": 280,
+      "color": "5",
+      "text": "# 📄 场景 A：飞书文档 & 多维表格\n\n在飞书上跟豆宝说一句话\n→ 直接读写飞书文档\n→ 操作多维表格\n→ 不用打开浏览器\n→ 不用手动复制粘贴\n\n🎥 屏幕录制：飞书对话演示\n\n**项目经理的解放双手神器**"
+    },
+    {
+      "id": "f1a2b3c4d5e60021",
+      "type": "text",
+      "x": 500,
+      "y": 700,
+      "width": 400,
+      "height": 280,
+      "color": "5",
+      "text": "# 📧 场景 B：一句话 Cold Emailing\n\n给目标客户画像\n→ 自动搜索潜在客户\n→ 生成个性化邮件\n→ 自动发送\n\n一句话启动，全流程自动\n以前需要一个 SDR 团队干的活\n\n🎥 展示效果截图/录屏"
+    },
+    {
+      "id": "f1a2b3c4d5e60022",
+      "type": "text",
+      "x": 1000,
+      "y": 700,
+      "width": 400,
+      "height": 280,
+      "color": "5",
+      "text": "# 🧠 场景 C：Obsidian 知识架构图\n\n自动生成知识架构图\n→ 散落笔记的关系可视化\n→ 学习和知识管理利器\n\n🎥 展示 Obsidian 截图\n\n🎤 **风格**: Tina Huang 式\n像跟朋友聊天，加踩坑小故事"
+    },
+    {
+      "id": "f1a2b3c4d5e60030",
+      "type": "text",
+      "x": 0,
+      "y": 1300,
+      "width": 400,
+      "height": 280,
+      "color": "1",
+      "text": "# 🏠 本地部署\n\n✅ 完全免费\n✅ 数据不出电脑\n✅ 权限最高\n\n❌ 关机 = 小龙虾歇菜\n❌ 权限太高是双刃剑\n❌ 可能误删重要文件\n\n👤 适合：想尝鲜的技术玩家"
+    },
+    {
+      "id": "f1a2b3c4d5e60031",
+      "type": "text",
+      "x": 500,
+      "y": 1300,
+      "width": 400,
+      "height": 280,
+      "color": "1",
+      "text": "# ☁️ 云部署\n\n✅ 24 小时在线\n✅ 部署简单\n\n❌ 强绑定平台 API 和模型\n❌ LLM 能力 = 小龙虾上限\n❌ 模型不聪明就发挥不出来\n\n👤 适合：不想折腾服务器的人"
+    },
+    {
+      "id": "f1a2b3c4d5e60032",
+      "type": "text",
+      "x": 1000,
+      "y": 1300,
+      "width": 400,
+      "height": 280,
+      "color": "4",
+      "text": "# 🖥️ VPS 虚拟机（我的选择）⭐\n\n✅ 24h 在线 + 安全隔离\n✅ 自由对接最聪明的模型\n✅ Claude Opus / GPT-4o 随便用\n\n❌ 额外花钱租虚拟机\n❌ 需要一点技术基础\n\n💰 每月几十到几百块\n**完全值得的投入**"
+    },
+    {
+      "id": "f1a2b3c4d5e60033",
+      "type": "text",
+      "x": 1500,
+      "y": 1300,
+      "width": 400,
+      "height": 280,
+      "color": "2",
+      "text": "# 🎤 Nate Herk 式讲解建议\n\n- 用对比表格帮观众快速决策\n- 加决策树：\n  \"如果你是XX类型 → 选XX\"\n- 实操导向，讲清利弊\n- 不回避缺点，建立信任"
+    },
+    {
+      "id": "f1a2b3c4d5e60040",
+      "type": "text",
+      "x": 0,
+      "y": 1900,
+      "width": 450,
+      "height": 200,
+      "color": "6",
+      "text": "# 🧩 Skills 生态\n\nClawHub 13000+ 社区 Skills\n= 别人写好的技能包，装上就用\n\n例子：\n- LinkedIn 自动发帖\n- 竞品网站监控\n- 行业简报自动生成\n- 智能家居管理\n\n🎤 **Greg Isenberg 式**：启发想象力"
+    },
+    {
+      "id": "f1a2b3c4d5e60041",
+      "type": "text",
+      "x": 550,
+      "y": 1900,
+      "width": 400,
+      "height": 200,
+      "color": "6",
+      "text": "# 💡 核心 CTA\n\n想想你日常工作里：\n哪些重复性、烦人、耗时间的事？\n\n→ 能不能让小龙虾来干？\n→ 答案大概率是：能。\n\n也可以自己写 Skill 分享给社区"
+    },
+    {
+      "id": "f1a2b3c4d5e60042",
+      "type": "text",
+      "x": 1050,
+      "y": 1900,
+      "width": 350,
+      "height": 200,
+      "color": "2",
+      "text": "# 🎬 Ending (9:30-10:00)\n\n回到镜头前，真诚收尾：\n- 一句话总结 OpenClaw\n- 点赞 + 关注\n- 预告后续教程：\n  → 从零部署教程\n  → SOUL.md 写作指南\n- \"我们下期见！\""
+    },
+    {
+      "id": "f1a2b3c4d5e60050",
+      "type": "text",
+      "x": 1550,
+      "y": 1900,
+      "width": 500,
+      "height": 200,
+      "color": "3",
+      "text": "# 📝 制作备忘\n\n- 加字幕（80% 静音观看）\n- 每 2-3 分钟换视觉节奏\n  镜头前 → 屏幕录制 → 图表 → 镜头前\n- 描述栏放官网 + 部署教程链接\n- 评论区置顶：\"想看什么教程？留言\"\n- 总时长控制在 10 分钟内"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0a1b2c3d4e50001",
+      "fromNode": "f1a2b3c4d5e60001",
+      "fromSide": "right",
+      "toNode": "f1a2b3c4d5e60010",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "进入"
+    },
+    {
+      "id": "e0a1b2c3d4e50002",
+      "fromNode": "f1a2b3c4d5e60010",
+      "fromSide": "right",
+      "toNode": "f1a2b3c4d5e60011",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0a1b2c3d4e50003",
+      "fromNode": "f1a2b3c4d5e60011",
+      "fromSide": "right",
+      "toNode": "f1a2b3c4d5e60012",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0a1b2c3d4e50004",
+      "fromNode": "f1a2b3c4d5e60012",
+      "fromSide": "right",
+      "toNode": "f1a2b3c4d5e60013",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0a1b2c3d4e50005",
+      "fromNode": "f1a2b3c4d5e60013",
+      "fromSide": "right",
+      "toNode": "f1a2b3c4d5e60014",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0a1b2c3d4e50006",
+      "fromNode": "f1a2b3c4d5e60014",
+      "fromSide": "right",
+      "toNode": "f1a2b3c4d5e60015",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0a1b2c3d4e50007",
+      "fromNode": "f1a2b3c4d5e60015",
+      "fromSide": "right",
+      "toNode": "f1a2b3c4d5e60016",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0a1b2c3d4e50010",
+      "fromNode": "f1a2b3c4d5e60020",
+      "fromSide": "right",
+      "toNode": "f1a2b3c4d5e60021",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0a1b2c3d4e50011",
+      "fromNode": "f1a2b3c4d5e60021",
+      "fromSide": "right",
+      "toNode": "f1a2b3c4d5e60022",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0a1b2c3d4e50020",
+      "fromNode": "f1a2b3c4d5e60030",
+      "fromSide": "right",
+      "toNode": "f1a2b3c4d5e60031",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0a1b2c3d4e50021",
+      "fromNode": "f1a2b3c4d5e60031",
+      "fromSide": "right",
+      "toNode": "f1a2b3c4d5e60032",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0a1b2c3d4e50030",
+      "fromNode": "f1a2b3c4d5e60040",
+      "fromSide": "right",
+      "toNode": "f1a2b3c4d5e60041",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0a1b2c3d4e50031",
+      "fromNode": "f1a2b3c4d5e60041",
+      "fromSide": "right",
+      "toNode": "f1a2b3c4d5e60042",
+      "toSide": "left",
+      "toEnd": "arrow"
+    }
+  ]
+}
