@@ -1,0 +1,449 @@
+{
+  "nodes": [
+    {
+      "id": "g0000000000000001",
+      "type": "group",
+      "x": -150,
+      "y": -150,
+      "width": 1700,
+      "height": 1400,
+      "label": "Part 1: 🦞 OpenClaw System Architecture (0:40-4:00)",
+      "color": "4"
+    },
+    {
+      "id": "n0000000000000001",
+      "type": "text",
+      "x": 450,
+      "y": -80,
+      "width": 280,
+      "height": 100,
+      "color": "2",
+      "text": "# 👤 You\n## The User"
+    },
+    {
+      "id": "n0000000000000010",
+      "type": "text",
+      "x": -80,
+      "y": 120,
+      "width": 380,
+      "height": 130,
+      "color": "5",
+      "text": "# 🇨🇳 China Channels\n## Feishu / WeCom / DingTalk"
+    },
+    {
+      "id": "n0000000000000011",
+      "type": "text",
+      "x": 380,
+      "y": 120,
+      "width": 380,
+      "height": 130,
+      "color": "5",
+      "text": "# 🌏 Global Channels\n## Slack / WhatsApp / Telegram\n## Discord / Signal"
+    },
+    {
+      "id": "n0000000000000012",
+      "type": "text",
+      "x": 840,
+      "y": 120,
+      "width": 380,
+      "height": 130,
+      "color": "5",
+      "text": "# 📱 iMessage\n## Native Apple Ecosystem"
+    },
+    {
+      "id": "n0000000000000020",
+      "type": "text",
+      "x": 350,
+      "y": 340,
+      "width": 400,
+      "height": 100,
+      "color": "4",
+      "text": "# 🔽 Gateway — Message Router\n## Single entry & exit for all messages"
+    },
+    {
+      "id": "n0000000000000035",
+      "type": "text",
+      "x": 100,
+      "y": 530,
+      "width": 900,
+      "height": 200,
+      "color": "3",
+      "text": "# 🧠 LLM Layer\n## 🇨🇳 China: Minimax / Kimi (Moonshot) / Qwen / DeepSeek\n## 🌏 Global: Claude (Anthropic) / ChatGPT (OpenAI) / Gemini (Google)\n## 🏠 Local: Llama (Meta) / Other Open-Source Models\n## **The model's IQ = the lobster's ceiling**"
+    },
+    {
+      "id": "n0000000000000040",
+      "type": "text",
+      "x": -80,
+      "y": 830,
+      "width": 260,
+      "height": 150,
+      "color": "6",
+      "text": "# 🧩 Skills\n## Multi-skill n+ plugins\n## ClawHub 13,000+\n## Install & use instantly"
+    },
+    {
+      "id": "n0000000000000041",
+      "type": "text",
+      "x": 240,
+      "y": 830,
+      "width": 260,
+      "height": 150,
+      "color": "6",
+      "text": "# 🧠 Memory\n## Memory System\n## MEMORY.md\n## Persistent, never forgets"
+    },
+    {
+      "id": "n0000000000000042",
+      "type": "text",
+      "x": 560,
+      "y": 830,
+      "width": 260,
+      "height": 150,
+      "color": "6",
+      "text": "# 💓 Heartbeat\n## Scheduled tasks / heartbeat\n## Wakes up on its own\n## No command needed"
+    },
+    {
+      "id": "n0000000000000043",
+      "type": "text",
+      "x": 880,
+      "y": 830,
+      "width": 260,
+      "height": 150,
+      "color": "6",
+      "text": "# 🔗 Multi-System Integration\n## Feishu / GitHub\n## Obsidian / Email\n## Extensible APIs"
+    },
+    {
+      "id": "n0000000000000044",
+      "type": "text",
+      "x": 1200,
+      "y": 830,
+      "width": 260,
+      "height": 150,
+      "color": "6",
+      "text": "# 🗄️ Vector DB\n## Vector Database\n## Semantic memory search\n## RAG retrieval"
+    },
+    {
+      "id": "n0000000000000045",
+      "type": "text",
+      "x": 300,
+      "y": 1070,
+      "width": 500,
+      "height": 150,
+      "color": "1",
+      "text": "# 👻 Soul — The Soul File\n## SOUL.md defines the AI's personality & boundaries\n## Every lobster is one of a kind\n## **This is the soul of OpenClaw**"
+    },
+    {
+      "id": "n0000000000000050",
+      "type": "text",
+      "x": 1050,
+      "y": 1040,
+      "width": 450,
+      "height": 180,
+      "color": "2",
+      "text": "# 🆚 vs Claude Code / Codex\n## Claude Code & Codex = coding tools\n## OpenClaw = full-stack Agent framework\n## Can call Claude Code to write code\n## Also manages docs, sends emails, automates workflows\n## **Commander vs Soldier**"
+    },
+    {
+      "id": "f1a2b3c4d5e60001",
+      "type": "text",
+      "x": -550,
+      "y": -80,
+      "width": 340,
+      "height": 350,
+      "color": "2",
+      "text": "# 🎬 Opening Hook\n## 0:00 - 0:40\n## Imagine having a 24/7 digital employee\n## Not a chatbot — an Agent that actually gets things done\n## It's called OpenClaw, an open-source AI lobster\n## 10 minutes to fully understand it\n### 🎥 Style: NetworkChuck high-energy opener"
+    },
+    {
+      "id": "a0b1c2d3e4f50002",
+      "type": "group",
+      "x": -150,
+      "y": 1400,
+      "width": 1700,
+      "height": 420,
+      "label": "Part 2: What I Built with OpenClaw (4:00-6:30)",
+      "color": "5"
+    },
+    {
+      "id": "f1a2b3c4d5e60020",
+      "type": "text",
+      "x": -80,
+      "y": 1470,
+      "width": 480,
+      "height": 300,
+      "color": "5",
+      "text": "# 📄 Scenario A: Feishu Docs & Bitable\n## Send one message to Doubo on Feishu\n## → Directly reads/writes Feishu docs\n## → Operates Bitable spreadsheets\n## → No browser needed\n## → No manual copy-paste\n### 🎥 Screen recording: Feishu chat demo\n## **A project manager's hands-free power tool**"
+    },
+    {
+      "id": "f1a2b3c4d5e60021",
+      "type": "text",
+      "x": 480,
+      "y": 1470,
+      "width": 480,
+      "height": 300,
+      "color": "5",
+      "text": "# 📧 Scenario B: One-Line Cold Emailing\n## Define target customer profile\n## → Auto-searches potential leads\n## → Generates personalized emails\n## → Sends automatically\n## One sentence to start, fully automated pipeline\n## Used to need an entire SDR team for this\n### 🎥 Show results: screenshots / screen recording"
+    },
+    {
+      "id": "f1a2b3c4d5e60022",
+      "type": "text",
+      "x": 1040,
+      "y": 1470,
+      "width": 480,
+      "height": 300,
+      "color": "5",
+      "text": "# 🧠 Scenario C: Obsidian Knowledge Maps\n## Auto-generates knowledge architecture maps\n## → Visualizes relationships between scattered notes\n## → A powerful tool for learning & knowledge management\n### 🎥 Show Obsidian screenshots\n### 🎤 Style: Tina Huang vibe\n## Like chatting with a friend, plus real pitfall stories"
+    },
+    {
+      "id": "a0b1c2d3e4f50003",
+      "type": "group",
+      "x": -150,
+      "y": 1920,
+      "width": 1700,
+      "height": 420,
+      "label": "Part 3: Security — Three Deployment Options (6:30-8:30)",
+      "color": "1"
+    },
+    {
+      "id": "f1a2b3c4d5e60030",
+      "type": "text",
+      "x": -80,
+      "y": 1990,
+      "width": 480,
+      "height": 300,
+      "color": "1",
+      "text": "# 🏠 Local Deployment\n## ✅ Completely free\n## ✅ Data never leaves your machine\n## ✅ Maximum control\n## ❌ Shut down = lobster sleeps\n## ❌ Too much access is a double-edged sword\n## ❌ Could accidentally delete important files\n## 👤 Best for: Tech-savvy early adopters"
+    },
+    {
+      "id": "f1a2b3c4d5e60031",
+      "type": "text",
+      "x": 480,
+      "y": 1990,
+      "width": 480,
+      "height": 300,
+      "color": "1",
+      "text": "# ☁️ Cloud Deployment\n## ✅ Online 24/7\n## ✅ Easy to deploy\n## ❌ Locked into platform APIs & models\n## ❌ LLM capability = lobster's ceiling\n## ❌ Dumb model = limited potential\n## 👤 Best for: People who don't want to manage servers"
+    },
+    {
+      "id": "f1a2b3c4d5e60032",
+      "type": "text",
+      "x": 1040,
+      "y": 1990,
+      "width": 480,
+      "height": 300,
+      "color": "4",
+      "text": "# 🖥️ VPS (My Choice) ⭐\n## ✅ 24/7 online + secure isolation\n## ✅ Freedom to use the smartest models\n## ✅ Claude Opus / GPT-4o — your pick\n## ❌ Extra cost for the VM\n## ❌ Requires some technical know-how\n## 💰 A few bucks to ~$50/month\n## **Totally worth the investment**"
+    },
+    {
+      "id": "a0b1c2d3e4f50004",
+      "type": "group",
+      "x": -150,
+      "y": 2440,
+      "width": 1700,
+      "height": 380,
+      "label": "Part 4: Skills Ecosystem + Ending (8:30-10:00)",
+      "color": "6"
+    },
+    {
+      "id": "f1a2b3c4d5e60040",
+      "type": "text",
+      "x": -80,
+      "y": 2510,
+      "width": 480,
+      "height": 260,
+      "color": "6",
+      "text": "# 🧩 Skills Ecosystem\n## ClawHub 13,000+ community Skills\n## = Pre-built skill packs, install & use\n## Auto-post on LinkedIn\n## Competitor website monitoring\n## Auto-generate industry briefings\n## Smart home management\n### 🎤 Greg Isenberg style: Spark imagination"
+    },
+    {
+      "id": "f1a2b3c4d5e60041",
+      "type": "text",
+      "x": 480,
+      "y": 2510,
+      "width": 480,
+      "height": 260,
+      "color": "6",
+      "text": "# 💡 Core CTA\n## Think about your daily work:\n## What's repetitive, annoying, and time-consuming?\n## → Could the lobster handle it?\n## → Most likely: yes.\n## You can also build your own Skills and share with the community"
+    },
+    {
+      "id": "f1a2b3c4d5e60042",
+      "type": "text",
+      "x": 1040,
+      "y": 2510,
+      "width": 480,
+      "height": 260,
+      "color": "2",
+      "text": "# 🎬 Ending (9:30-10:00)\n## Back on camera, sincere wrap-up\n## One-line summary of OpenClaw\n## Like + Subscribe\n## Tease upcoming tutorials:\n## → Zero-to-deploy guide\n## → SOUL.md writing guide\n## \"See you in the next one!\""
+    },
+    {
+      "id": "f1a2b3c4d5e60050",
+      "type": "text",
+      "x": -550,
+      "y": 2440,
+      "width": 350,
+      "height": 260,
+      "color": "3",
+      "text": "# 📝 Production Notes\n## Add subtitles (80% watch on mute)\n## Switch visual rhythm every 2-3 min\n## On-camera → screen recording → diagrams → on-camera\n## Description: website + deploy tutorial links\n## Pinned comment: What tutorial do you want next?\n## Keep total runtime under 10 minutes"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0000000000000001",
+      "fromNode": "n0000000000000001",
+      "fromSide": "bottom",
+      "toNode": "n0000000000000010",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "China"
+    },
+    {
+      "id": "e0000000000000002",
+      "fromNode": "n0000000000000001",
+      "fromSide": "bottom",
+      "toNode": "n0000000000000011",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "Global"
+    },
+    {
+      "id": "e0000000000000003",
+      "fromNode": "n0000000000000001",
+      "fromSide": "bottom",
+      "toNode": "n0000000000000012",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "Apple"
+    },
+    {
+      "id": "e0000000000000004",
+      "fromNode": "n0000000000000010",
+      "fromSide": "bottom",
+      "toNode": "n0000000000000020",
+      "toSide": "top",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0000000000000005",
+      "fromNode": "n0000000000000011",
+      "fromSide": "bottom",
+      "toNode": "n0000000000000020",
+      "toSide": "top",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0000000000000006",
+      "fromNode": "n0000000000000012",
+      "fromSide": "bottom",
+      "toNode": "n0000000000000020",
+      "toSide": "top",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0000000000000007",
+      "fromNode": "n0000000000000020",
+      "fromSide": "bottom",
+      "toNode": "n0000000000000035",
+      "toSide": "top",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0000000000000010",
+      "fromNode": "n0000000000000035",
+      "fromSide": "bottom",
+      "toNode": "n0000000000000040",
+      "toSide": "top",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0000000000000011",
+      "fromNode": "n0000000000000035",
+      "fromSide": "bottom",
+      "toNode": "n0000000000000041",
+      "toSide": "top",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0000000000000012",
+      "fromNode": "n0000000000000035",
+      "fromSide": "bottom",
+      "toNode": "n0000000000000042",
+      "toSide": "top",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0000000000000013",
+      "fromNode": "n0000000000000035",
+      "fromSide": "bottom",
+      "toNode": "n0000000000000043",
+      "toSide": "top",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0000000000000014",
+      "fromNode": "n0000000000000035",
+      "fromSide": "bottom",
+      "toNode": "n0000000000000044",
+      "toSide": "top",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0000000000000015",
+      "fromNode": "n0000000000000041",
+      "fromSide": "bottom",
+      "toNode": "n0000000000000045",
+      "toSide": "top",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0000000000000016",
+      "fromNode": "n0000000000000042",
+      "fromSide": "bottom",
+      "toNode": "n0000000000000045",
+      "toSide": "top",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0000000000000020",
+      "fromNode": "f1a2b3c4d5e60020",
+      "fromSide": "right",
+      "toNode": "f1a2b3c4d5e60021",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0000000000000021",
+      "fromNode": "f1a2b3c4d5e60021",
+      "fromSide": "right",
+      "toNode": "f1a2b3c4d5e60022",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0000000000000030",
+      "fromNode": "f1a2b3c4d5e60030",
+      "fromSide": "right",
+      "toNode": "f1a2b3c4d5e60031",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0000000000000031",
+      "fromNode": "f1a2b3c4d5e60031",
+      "fromSide": "right",
+      "toNode": "f1a2b3c4d5e60032",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0000000000000040",
+      "fromNode": "f1a2b3c4d5e60040",
+      "fromSide": "right",
+      "toNode": "f1a2b3c4d5e60041",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0000000000000041",
+      "fromNode": "f1a2b3c4d5e60041",
+      "fromSide": "right",
+      "toNode": "f1a2b3c4d5e60042",
+      "toSide": "left",
+      "toEnd": "arrow"
+    }
+  ]
+}
