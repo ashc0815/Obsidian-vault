@@ -1,0 +1,245 @@
+{
+  "nodes": [
+    {
+      "id": "a1b2c3d4e5f60001",
+      "type": "text",
+      "x": 300,
+      "y": -100,
+      "width": 400,
+      "height": 80,
+      "color": "6",
+      "text": "# 🦞 OpenClaw × LinkedIn Auto-Posting Flow"
+    },
+    {
+      "id": "a1b2c3d4e5f60010",
+      "type": "group",
+      "x": -50,
+      "y": 20,
+      "width": 1100,
+      "height": 320,
+      "label": "Phase 1: Content Production",
+      "color": "5"
+    },
+    {
+      "id": "a1b2c3d4e5f60002",
+      "type": "text",
+      "x": 0,
+      "y": 60,
+      "width": 300,
+      "height": 120,
+      "color": "5",
+      "text": "## 📰 Daily News Topic Selection\n\nAI news briefing pushed at 8:30 AM\nPick topics from AI in Finance /\nAnti-fraud / Compliance"
+    },
+    {
+      "id": "a1b2c3d4e5f60003",
+      "type": "text",
+      "x": 380,
+      "y": 60,
+      "width": 300,
+      "height": 120,
+      "color": "5",
+      "text": "## ✍️ AI Auto-Drafting\n\nAlternate CEO / PM perspective\nHook → Context → Insight →\nStory → Takeaway → CTA\n800-1300 characters"
+    },
+    {
+      "id": "a1b2c3d4e5f60004",
+      "type": "text",
+      "x": 760,
+      "y": 60,
+      "width": 250,
+      "height": 120,
+      "color": "5",
+      "text": "## 🎨 Cover Image Generation\n\nHTML Canvas rendering\nCanva-style 1024×1024\nPlaywright screenshot → PNG"
+    },
+    {
+      "id": "a1b2c3d4e5f60005",
+      "type": "text",
+      "x": 0,
+      "y": 220,
+      "width": 300,
+      "height": 80,
+      "text": "**Sources:** PYMNTS / TechCrunch /\nKrebs on Security / Brave Search"
+    },
+    {
+      "id": "a1b2c3d4e5f60006",
+      "type": "text",
+      "x": 380,
+      "y": 220,
+      "width": 300,
+      "height": 80,
+      "text": "**Skills:** linkedin-content\nlinkedin-authority-builder\naccountant / financial-literacy"
+    },
+    {
+      "id": "a1b2c3d4e5f60007",
+      "type": "text",
+      "x": 760,
+      "y": 220,
+      "width": 250,
+      "height": 80,
+      "text": "**Storage:** linkedin-drafts/\ndraft-YYYY-MM-DD-{topic}.md\n+ images/"
+    },
+    {
+      "id": "a1b2c3d4e5f60020",
+      "type": "group",
+      "x": -50,
+      "y": 400,
+      "width": 1100,
+      "height": 200,
+      "label": "Phase 2: Human Review",
+      "color": "3"
+    },
+    {
+      "id": "a1b2c3d4e5f60008",
+      "type": "text",
+      "x": 100,
+      "y": 440,
+      "width": 350,
+      "height": 120,
+      "color": "3",
+      "text": "## 📱 Feishu Preview Push\n\nPost text + cover image sent to Feishu\nOwner reviews content and image\nCan request revisions"
+    },
+    {
+      "id": "a1b2c3d4e5f60009",
+      "type": "text",
+      "x": 550,
+      "y": 440,
+      "width": 350,
+      "height": 120,
+      "color": "3",
+      "text": "## ✅ Owner Approval\n\nOwner says \"Go\" / \"OK\" / \"Approved\"\n→ Triggers publish flow\n⚠️ Never skip review and publish directly!"
+    },
+    {
+      "id": "a1b2c3d4e5f60030",
+      "type": "group",
+      "x": -50,
+      "y": 660,
+      "width": 1100,
+      "height": 200,
+      "label": "Phase 3: Auto-Publish",
+      "color": "4"
+    },
+    {
+      "id": "a1b2c3d4e5f6000a",
+      "type": "text",
+      "x": 0,
+      "y": 700,
+      "width": 320,
+      "height": 120,
+      "color": "4",
+      "text": "## 🚀 LinkedIn API Publish\n\n1. Register image upload → get asset\n2. Upload PNG to LinkedIn\n3. Publish with image (IMAGE type)\n4. Drop link in first comment"
+    },
+    {
+      "id": "a1b2c3d4e5f6000b",
+      "type": "text",
+      "x": 390,
+      "y": 700,
+      "width": 320,
+      "height": 120,
+      "color": "4",
+      "text": "## 💬 Post-Publish Engagement\n\nSearch trending posts in same field\nDraft 3-5 comment replies\nSend to owner for manual posting\n(Avoid auto-commenting ban risk)"
+    },
+    {
+      "id": "a1b2c3d4e5f6000c",
+      "type": "text",
+      "x": 780,
+      "y": 700,
+      "width": 230,
+      "height": 120,
+      "color": "4",
+      "text": "## 📊 Archive\n\nMove draft to published/\nRecord Post ID\nSunday Performance\nReview"
+    },
+    {
+      "id": "a1b2c3d4e5f60040",
+      "type": "group",
+      "x": -50,
+      "y": 920,
+      "width": 1100,
+      "height": 160,
+      "label": "Tech Stack",
+      "color": "1"
+    },
+    {
+      "id": "a1b2c3d4e5f6000d",
+      "type": "text",
+      "x": 0,
+      "y": 960,
+      "width": 500,
+      "height": 80,
+      "text": "**OpenClaw** → Feishu Bot (WebSocket)\n**LinkedIn API** → OAuth 2.0 + ugcPosts v2\n**Image Gen** → HTML/CSS + Playwright headless Chrome"
+    },
+    {
+      "id": "a1b2c3d4e5f6000e",
+      "type": "text",
+      "x": 560,
+      "y": 960,
+      "width": 450,
+      "height": 80,
+      "text": "**Posting Frequency:** Mon / Wed / Fri\n**Publish Time:** Tue/Thu 8-9 AM AEST\n**Heartbeat Auto-Trigger** → Cron scheduled check"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1b2c3d4e5f60001",
+      "fromNode": "a1b2c3d4e5f60002",
+      "fromSide": "right",
+      "toNode": "a1b2c3d4e5f60003",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "Topic"
+    },
+    {
+      "id": "e1b2c3d4e5f60002",
+      "fromNode": "a1b2c3d4e5f60003",
+      "fromSide": "right",
+      "toNode": "a1b2c3d4e5f60004",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "Draft"
+    },
+    {
+      "id": "e1b2c3d4e5f60003",
+      "fromNode": "a1b2c3d4e5f60004",
+      "fromSide": "bottom",
+      "toNode": "a1b2c3d4e5f60008",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "Preview"
+    },
+    {
+      "id": "e1b2c3d4e5f60004",
+      "fromNode": "a1b2c3d4e5f60008",
+      "fromSide": "right",
+      "toNode": "a1b2c3d4e5f60009",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "Review"
+    },
+    {
+      "id": "e1b2c3d4e5f60005",
+      "fromNode": "a1b2c3d4e5f60009",
+      "fromSide": "bottom",
+      "toNode": "a1b2c3d4e5f6000a",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "4",
+      "label": "Owner says \"Go\""
+    },
+    {
+      "id": "e1b2c3d4e5f60006",
+      "fromNode": "a1b2c3d4e5f6000a",
+      "fromSide": "right",
+      "toNode": "a1b2c3d4e5f6000b",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "Post-publish"
+    },
+    {
+      "id": "e1b2c3d4e5f60007",
+      "fromNode": "a1b2c3d4e5f6000b",
+      "fromSide": "right",
+      "toNode": "a1b2c3d4e5f6000c",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "Archive"
+    }
+  ]
+}
