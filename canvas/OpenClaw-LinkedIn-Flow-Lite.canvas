@@ -1,0 +1,275 @@
+{
+  "nodes": [
+    {
+      "id": "f0a1b2c3d4e5f001",
+      "type": "text",
+      "x": 300,
+      "y": -120,
+      "width": 450,
+      "height": 60,
+      "color": "6",
+      "text": "# 🦞 AI-Powered LinkedIn Content System"
+    },
+    {
+      "id": "f0a1b2c3d4e5f100",
+      "type": "group",
+      "x": -50,
+      "y": 0,
+      "width": 1100,
+      "height": 160,
+      "label": "1. Content Production",
+      "color": "5"
+    },
+    {
+      "id": "f0a1b2c3d4e5f101",
+      "type": "text",
+      "x": 0,
+      "y": 30,
+      "width": 240,
+      "height": 100,
+      "color": "5",
+      "text": "## 📰 AI News Briefing\n\nDaily industry scan\nAI + Finance + Compliance"
+    },
+    {
+      "id": "f0a1b2c3d4e5f102",
+      "type": "text",
+      "x": 290,
+      "y": 30,
+      "width": 240,
+      "height": 100,
+      "color": "5",
+      "text": "## 🎯 Topic Selection\n\nPick trending topic\nAlternate CEO / PM lens"
+    },
+    {
+      "id": "f0a1b2c3d4e5f103",
+      "type": "text",
+      "x": 580,
+      "y": 30,
+      "width": 220,
+      "height": 100,
+      "color": "5",
+      "text": "## ✍️ AI Drafting\n\nHook → Insight → Story\n→ Takeaway → CTA"
+    },
+    {
+      "id": "f0a1b2c3d4e5f104",
+      "type": "text",
+      "x": 850,
+      "y": 30,
+      "width": 180,
+      "height": 100,
+      "color": "5",
+      "text": "## 🎨 Cover Image\n\nAI-generated\n1024×1024"
+    },
+    {
+      "id": "f0a1b2c3d4e5f200",
+      "type": "group",
+      "x": -50,
+      "y": 210,
+      "width": 1100,
+      "height": 160,
+      "label": "2. Human Review",
+      "color": "3"
+    },
+    {
+      "id": "f0a1b2c3d4e5f201",
+      "type": "text",
+      "x": 100,
+      "y": 240,
+      "width": 400,
+      "height": 100,
+      "color": "3",
+      "text": "## 📱 Preview via Chat\n\nText + image pushed for review\nRevise until approved"
+    },
+    {
+      "id": "f0a1b2c3d4e5f202",
+      "type": "text",
+      "x": 560,
+      "y": 240,
+      "width": 400,
+      "height": 100,
+      "color": "3",
+      "text": "## ✅ Approve & Publish\n\nOne click to go live\nNever auto-publish without approval"
+    },
+    {
+      "id": "f0a1b2c3d4e5f300",
+      "type": "group",
+      "x": -50,
+      "y": 420,
+      "width": 1100,
+      "height": 160,
+      "label": "3. Post-Publish Engagement",
+      "color": "4"
+    },
+    {
+      "id": "f0a1b2c3d4e5f301",
+      "type": "text",
+      "x": 0,
+      "y": 450,
+      "width": 320,
+      "height": 100,
+      "color": "4",
+      "text": "## 💬 First Comment\n\nDrop website link\nReply to all comments"
+    },
+    {
+      "id": "f0a1b2c3d4e5f302",
+      "type": "text",
+      "x": 380,
+      "y": 450,
+      "width": 320,
+      "height": 100,
+      "color": "4",
+      "text": "## 🔍 Industry Engagement\n\nAI drafts comments on\ntrending posts in your niche"
+    },
+    {
+      "id": "f0a1b2c3d4e5f303",
+      "type": "text",
+      "x": 760,
+      "y": 450,
+      "width": 260,
+      "height": 100,
+      "color": "4",
+      "text": "## 📁 Archive\n\nLog post performance\nTrack what works"
+    },
+    {
+      "id": "f0a1b2c3d4e5f400",
+      "type": "group",
+      "x": -50,
+      "y": 630,
+      "width": 1100,
+      "height": 160,
+      "label": "4. Weekly Review & Optimize",
+      "color": "1"
+    },
+    {
+      "id": "f0a1b2c3d4e5f401",
+      "type": "text",
+      "x": 0,
+      "y": 660,
+      "width": 320,
+      "height": 100,
+      "color": "1",
+      "text": "## 📊 Performance Review\n\nWeekly analytics check\nCompare all posts"
+    },
+    {
+      "id": "f0a1b2c3d4e5f402",
+      "type": "text",
+      "x": 380,
+      "y": 660,
+      "width": 320,
+      "height": 100,
+      "color": "1",
+      "text": "## 🔬 AI Analysis\n\nWhat worked & why\nBest post breakdown"
+    },
+    {
+      "id": "f0a1b2c3d4e5f403",
+      "type": "text",
+      "x": 760,
+      "y": 660,
+      "width": 260,
+      "height": 100,
+      "color": "1",
+      "text": "## 🔄 Strategy Tuning\n\nAdjust next week's\ntopics & format"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0a1b2c3d4e5f001",
+      "fromNode": "f0a1b2c3d4e5f101",
+      "fromSide": "right",
+      "toNode": "f0a1b2c3d4e5f102",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0a1b2c3d4e5f002",
+      "fromNode": "f0a1b2c3d4e5f102",
+      "fromSide": "right",
+      "toNode": "f0a1b2c3d4e5f103",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0a1b2c3d4e5f003",
+      "fromNode": "f0a1b2c3d4e5f103",
+      "fromSide": "right",
+      "toNode": "f0a1b2c3d4e5f104",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0a1b2c3d4e5f004",
+      "fromNode": "f0a1b2c3d4e5f104",
+      "fromSide": "bottom",
+      "toNode": "f0a1b2c3d4e5f201",
+      "toSide": "top",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0a1b2c3d4e5f005",
+      "fromNode": "f0a1b2c3d4e5f201",
+      "fromSide": "right",
+      "toNode": "f0a1b2c3d4e5f202",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0a1b2c3d4e5f006",
+      "fromNode": "f0a1b2c3d4e5f202",
+      "fromSide": "bottom",
+      "toNode": "f0a1b2c3d4e5f301",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "4"
+    },
+    {
+      "id": "e0a1b2c3d4e5f007",
+      "fromNode": "f0a1b2c3d4e5f301",
+      "fromSide": "right",
+      "toNode": "f0a1b2c3d4e5f302",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0a1b2c3d4e5f008",
+      "fromNode": "f0a1b2c3d4e5f302",
+      "fromSide": "right",
+      "toNode": "f0a1b2c3d4e5f303",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0a1b2c3d4e5f009",
+      "fromNode": "f0a1b2c3d4e5f303",
+      "fromSide": "bottom",
+      "toNode": "f0a1b2c3d4e5f401",
+      "toSide": "top",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0a1b2c3d4e5f010",
+      "fromNode": "f0a1b2c3d4e5f401",
+      "fromSide": "right",
+      "toNode": "f0a1b2c3d4e5f402",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0a1b2c3d4e5f011",
+      "fromNode": "f0a1b2c3d4e5f402",
+      "fromSide": "right",
+      "toNode": "f0a1b2c3d4e5f403",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0a1b2c3d4e5f012",
+      "fromNode": "f0a1b2c3d4e5f403",
+      "fromSide": "top",
+      "toNode": "f0a1b2c3d4e5f101",
+      "toSide": "bottom",
+      "toEnd": "arrow",
+      "color": "1",
+      "label": "Feed back"
+    }
+  ]
+}
