@@ -1,0 +1,245 @@
+{
+  "nodes": [
+    {
+      "id": "a1b2c3d4e5f60001",
+      "type": "text",
+      "x": 300,
+      "y": -100,
+      "width": 400,
+      "height": 80,
+      "color": "6",
+      "text": "# 🦞 OpenClaw × LinkedIn 自动发帖流程"
+    },
+    {
+      "id": "a1b2c3d4e5f60010",
+      "type": "group",
+      "x": -50,
+      "y": 20,
+      "width": 1100,
+      "height": 320,
+      "label": "Phase 1: 内容生产",
+      "color": "5"
+    },
+    {
+      "id": "a1b2c3d4e5f60002",
+      "type": "text",
+      "x": 0,
+      "y": 60,
+      "width": 300,
+      "height": 120,
+      "color": "5",
+      "text": "## 📰 每日早报选题\n\n每天 8:30 AI 新闻早报推送\n从中挑选 AI in Finance /\nAnti-fraud / Compliance 话题"
+    },
+    {
+      "id": "a1b2c3d4e5f60003",
+      "type": "text",
+      "x": 380,
+      "y": 60,
+      "width": 300,
+      "height": 120,
+      "color": "5",
+      "text": "## ✍️ AI 自动写稿\n\n交替 CEO 视角 / PM 视角\nHook → Context → Insight →\nStory → Takeaway → CTA\n800-1300 字符"
+    },
+    {
+      "id": "a1b2c3d4e5f60004",
+      "type": "text",
+      "x": 760,
+      "y": 60,
+      "width": 250,
+      "height": 120,
+      "color": "5",
+      "text": "## 🎨 生成配图\n\nHTML Canvas 渲染\nCanva 风格 1024×1024\nPlaywright 截图生成 PNG"
+    },
+    {
+      "id": "a1b2c3d4e5f60005",
+      "type": "text",
+      "x": 0,
+      "y": 220,
+      "width": 300,
+      "height": 80,
+      "text": "**新闻源：** PYMNTS / TechCrunch /\nKrebs on Security / Brave Search"
+    },
+    {
+      "id": "a1b2c3d4e5f60006",
+      "type": "text",
+      "x": 380,
+      "y": 220,
+      "width": 300,
+      "height": 80,
+      "text": "**Skills：** linkedin-content\nlinkedin-authority-builder\naccountant / financial-literacy"
+    },
+    {
+      "id": "a1b2c3d4e5f60007",
+      "type": "text",
+      "x": 760,
+      "y": 220,
+      "width": 250,
+      "height": 80,
+      "text": "**存储：** linkedin-drafts/\ndraft-YYYY-MM-DD-{topic}.md\n+ images/"
+    },
+    {
+      "id": "a1b2c3d4e5f60020",
+      "type": "group",
+      "x": -50,
+      "y": 400,
+      "width": 1100,
+      "height": 200,
+      "label": "Phase 2: 人工审核",
+      "color": "3"
+    },
+    {
+      "id": "a1b2c3d4e5f60008",
+      "type": "text",
+      "x": 100,
+      "y": 440,
+      "width": 350,
+      "height": 120,
+      "color": "3",
+      "text": "## 📱 飞书推送预览\n\n帖子文字 + 配图一起发到飞书\n主人审核内容和图片\n可以要求修改"
+    },
+    {
+      "id": "a1b2c3d4e5f60009",
+      "type": "text",
+      "x": 550,
+      "y": 440,
+      "width": 350,
+      "height": 120,
+      "color": "3",
+      "text": "## ✅ 主人批准\n\n主人说「发」/「OK」/「可以」\n→ 触发发布流程\n⚠️ 绝不跳过审核直接发布！"
+    },
+    {
+      "id": "a1b2c3d4e5f60030",
+      "type": "group",
+      "x": -50,
+      "y": 660,
+      "width": 1100,
+      "height": 200,
+      "label": "Phase 3: 自动发布",
+      "color": "4"
+    },
+    {
+      "id": "a1b2c3d4e5f6000a",
+      "type": "text",
+      "x": 0,
+      "y": 700,
+      "width": 320,
+      "height": 120,
+      "color": "4",
+      "text": "## 🚀 LinkedIn API 发布\n\n1. 注册图片上传 → 拿 asset\n2. 上传 PNG 到 LinkedIn\n3. 图文一起发布（IMAGE 类型）\n4. 链接放评论区第一条"
+    },
+    {
+      "id": "a1b2c3d4e5f6000b",
+      "type": "text",
+      "x": 390,
+      "y": 700,
+      "width": 320,
+      "height": 120,
+      "color": "4",
+      "text": "## 💬 发后互动\n\n搜索同领域热帖\n写 3-5 条评论草稿\n发给主人手动评论\n（避免自动评论封号）"
+    },
+    {
+      "id": "a1b2c3d4e5f6000c",
+      "type": "text",
+      "x": 780,
+      "y": 700,
+      "width": 230,
+      "height": 120,
+      "color": "4",
+      "text": "## 📊 归档\n\n草稿移到 published/\n记录 Post ID\n周日做 Performance\nReview"
+    },
+    {
+      "id": "a1b2c3d4e5f60040",
+      "type": "group",
+      "x": -50,
+      "y": 920,
+      "width": 1100,
+      "height": 160,
+      "label": "技术栈",
+      "color": "1"
+    },
+    {
+      "id": "a1b2c3d4e5f6000d",
+      "type": "text",
+      "x": 0,
+      "y": 960,
+      "width": 500,
+      "height": 80,
+      "text": "**OpenClaw** → 飞书 Bot (WebSocket)\n**LinkedIn API** → OAuth 2.0 + ugcPosts v2\n**图片生成** → HTML/CSS + Playwright headless Chrome"
+    },
+    {
+      "id": "a1b2c3d4e5f6000e",
+      "type": "text",
+      "x": 560,
+      "y": 960,
+      "width": 450,
+      "height": 80,
+      "text": "**发帖频率：** 每周一、三、五\n**发布时间：** 澳洲时间 周二/周四 早 8-9 点\n**Heartbeat 自动触发** → Cron 定时检查"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1b2c3d4e5f60001",
+      "fromNode": "a1b2c3d4e5f60002",
+      "fromSide": "right",
+      "toNode": "a1b2c3d4e5f60003",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "选题"
+    },
+    {
+      "id": "e1b2c3d4e5f60002",
+      "fromNode": "a1b2c3d4e5f60003",
+      "fromSide": "right",
+      "toNode": "a1b2c3d4e5f60004",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "写稿"
+    },
+    {
+      "id": "e1b2c3d4e5f60003",
+      "fromNode": "a1b2c3d4e5f60004",
+      "fromSide": "bottom",
+      "toNode": "a1b2c3d4e5f60008",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "预览"
+    },
+    {
+      "id": "e1b2c3d4e5f60004",
+      "fromNode": "a1b2c3d4e5f60008",
+      "fromSide": "right",
+      "toNode": "a1b2c3d4e5f60009",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "审核"
+    },
+    {
+      "id": "e1b2c3d4e5f60005",
+      "fromNode": "a1b2c3d4e5f60009",
+      "fromSide": "bottom",
+      "toNode": "a1b2c3d4e5f6000a",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "4",
+      "label": "主人说「发」"
+    },
+    {
+      "id": "e1b2c3d4e5f60006",
+      "fromNode": "a1b2c3d4e5f6000a",
+      "fromSide": "right",
+      "toNode": "a1b2c3d4e5f6000b",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "发布后"
+    },
+    {
+      "id": "e1b2c3d4e5f60007",
+      "fromNode": "a1b2c3d4e5f6000b",
+      "fromSide": "right",
+      "toNode": "a1b2c3d4e5f6000c",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "归档"
+    }
+  ]
+}
