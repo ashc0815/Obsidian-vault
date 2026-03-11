@@ -1,245 +1,540 @@
 {
   "nodes": [
     {
-      "id": "a1b2c3d4e5f60001",
+      "id": "f0a1b2c3d4e5f001",
       "type": "text",
-      "x": 300,
-      "y": -100,
-      "width": 400,
+      "x": 250,
+      "y": -120,
+      "width": 500,
       "height": 80,
       "color": "6",
-      "text": "# 🦞 OpenClaw × LinkedIn Auto-Posting Flow"
+      "text": "# 🦞 OpenClaw × LinkedIn Auto-Posting Flow\nComplete lifecycle: Daily Briefing → Publish → Review → Optimize"
     },
     {
-      "id": "a1b2c3d4e5f60010",
+      "id": "f0a1b2c3d4e5f100",
       "type": "group",
       "x": -50,
-      "y": 20,
-      "width": 1100,
-      "height": 320,
-      "label": "Phase 1: Content Production",
+      "y": 0,
+      "width": 1200,
+      "height": 350,
+      "label": "Phase 1: Daily Briefing & Content Production (Mon/Wed/Fri)",
       "color": "5"
     },
     {
-      "id": "a1b2c3d4e5f60002",
+      "id": "f0a1b2c3d4e5f101",
       "type": "text",
       "x": 0,
-      "y": 60,
-      "width": 300,
-      "height": 120,
+      "y": 40,
+      "width": 260,
+      "height": 130,
       "color": "5",
-      "text": "## 📰 Daily News Topic Selection\n\nAI news briefing pushed at 8:30 AM\nPick topics from AI in Finance /\nAnti-fraud / Compliance"
+      "text": "## 📰 Daily AI Briefing\n\nPushed at 8:30 AM (Beijing)\nSources: PYMNTS / TechCrunch /\nKrebs on Security / Brave Search\nTopics: AI in Finance / Anti-fraud"
     },
     {
-      "id": "a1b2c3d4e5f60003",
+      "id": "f0a1b2c3d4e5f102",
       "type": "text",
-      "x": 380,
-      "y": 60,
-      "width": 300,
-      "height": 120,
+      "x": 310,
+      "y": 40,
+      "width": 260,
+      "height": 130,
       "color": "5",
-      "text": "## ✍️ AI Auto-Drafting\n\nAlternate CEO / PM perspective\nHook → Context → Insight →\nStory → Takeaway → CTA\n800-1300 characters"
+      "text": "## 🎯 Topic Selection\n\nPick from today's briefing\nFocus: AI Finance / Anti-fraud /\nCompliance / RegTech\nCheck perspective rotation log"
     },
     {
-      "id": "a1b2c3d4e5f60004",
+      "id": "f0a1b2c3d4e5f103",
       "type": "text",
-      "x": 760,
-      "y": 60,
-      "width": 250,
-      "height": 120,
+      "x": 620,
+      "y": 40,
+      "width": 260,
+      "height": 130,
       "color": "5",
-      "text": "## 🎨 Cover Image Generation\n\nHTML Canvas rendering\nCanva-style 1024×1024\nPlaywright screenshot → PNG"
+      "text": "## ✍️ AI Auto-Drafting\n\nAlternate CEO ↔ PM perspective\nHook → Context → Insight →\nStory → Takeaway → CTA\n800-1300 chars, short punchy lines"
     },
     {
-      "id": "a1b2c3d4e5f60005",
+      "id": "f0a1b2c3d4e5f104",
+      "type": "text",
+      "x": 930,
+      "y": 40,
+      "width": 200,
+      "height": 130,
+      "color": "5",
+      "text": "## 🎨 Cover Image Gen\n\nHTML Canvas / OpenAI\nCanva-style 1024×1024\nPlaywright screenshot\n→ PNG"
+    },
+    {
+      "id": "f0a1b2c3d4e5f105",
       "type": "text",
       "x": 0,
-      "y": 220,
-      "width": 300,
-      "height": 80,
-      "text": "**Sources:** PYMNTS / TechCrunch /\nKrebs on Security / Brave Search"
+      "y": 200,
+      "width": 260,
+      "height": 100,
+      "text": "**Cron trigger:** UTC 0:30\n**Only pushed once** by cron\nNever duplicate in chat session"
     },
     {
-      "id": "a1b2c3d4e5f60006",
+      "id": "f0a1b2c3d4e5f106",
       "type": "text",
-      "x": 380,
-      "y": 220,
-      "width": 300,
-      "height": 80,
-      "text": "**Skills:** linkedin-content\nlinkedin-authority-builder\naccountant / financial-literacy"
+      "x": 310,
+      "y": 200,
+      "width": 260,
+      "height": 100,
+      "text": "**Perspective log:**\nLast: PM (2026-03-10)\nNext: CEO\nStored in HEARTBEAT.md"
     },
     {
-      "id": "a1b2c3d4e5f60007",
+      "id": "f0a1b2c3d4e5f107",
       "type": "text",
-      "x": 760,
-      "y": 220,
-      "width": 250,
-      "height": 80,
-      "text": "**Storage:** linkedin-drafts/\ndraft-YYYY-MM-DD-{topic}.md\n+ images/"
+      "x": 620,
+      "y": 200,
+      "width": 260,
+      "height": 100,
+      "text": "**Skills used:**\nlinkedin-content\nlinkedin-authority-builder\naccountant / financial-literacy"
     },
     {
-      "id": "a1b2c3d4e5f60020",
+      "id": "f0a1b2c3d4e5f108",
+      "type": "text",
+      "x": 930,
+      "y": 200,
+      "width": 200,
+      "height": 100,
+      "text": "**Storage:**\nlinkedin-drafts/\ndraft-YYYY-MM-DD-{topic}.md\n+ images/"
+    },
+    {
+      "id": "f0a1b2c3d4e5f200",
       "type": "group",
       "x": -50,
       "y": 400,
-      "width": 1100,
+      "width": 1200,
       "height": 200,
-      "label": "Phase 2: Human Review",
+      "label": "Phase 2: Human Review (Feishu)",
       "color": "3"
     },
     {
-      "id": "a1b2c3d4e5f60008",
+      "id": "f0a1b2c3d4e5f201",
       "type": "text",
-      "x": 100,
+      "x": 50,
       "y": 440,
-      "width": 350,
+      "width": 320,
       "height": 120,
       "color": "3",
-      "text": "## 📱 Feishu Preview Push\n\nPost text + cover image sent to Feishu\nOwner reviews content and image\nCan request revisions"
+      "text": "## 📱 Feishu Preview Push\n\nPost text + cover image sent together\nOwner reviews content & image\nCan request revisions anytime"
     },
     {
-      "id": "a1b2c3d4e5f60009",
+      "id": "f0a1b2c3d4e5f202",
       "type": "text",
-      "x": 550,
+      "x": 430,
       "y": 440,
-      "width": 350,
+      "width": 320,
       "height": 120,
       "color": "3",
-      "text": "## ✅ Owner Approval\n\nOwner says \"Go\" / \"OK\" / \"Approved\"\n→ Triggers publish flow\n⚠️ Never skip review and publish directly!"
+      "text": "## ✅ Owner Approval\n\nOwner says \"Go\" / \"OK\" / \"Approved\"\n→ Triggers publish flow\n⚠️ NEVER skip review!\n⚠️ NEVER publish text-only (must have image)!"
     },
     {
-      "id": "a1b2c3d4e5f60030",
+      "id": "f0a1b2c3d4e5f203",
+      "type": "text",
+      "x": 810,
+      "y": 440,
+      "width": 300,
+      "height": 120,
+      "color": "3",
+      "text": "## 🔄 Revision Loop\n\nOwner requests changes →\nRevise draft / regenerate image →\nRe-send preview →\nWait for approval again"
+    },
+    {
+      "id": "f0a1b2c3d4e5f300",
       "type": "group",
       "x": -50,
-      "y": 660,
-      "width": 1100,
-      "height": 200,
-      "label": "Phase 3: Auto-Publish",
+      "y": 650,
+      "width": 1200,
+      "height": 320,
+      "label": "Phase 3: Publish & Post-Publish Engagement",
       "color": "4"
     },
     {
-      "id": "a1b2c3d4e5f6000a",
+      "id": "f0a1b2c3d4e5f301",
       "type": "text",
       "x": 0,
-      "y": 700,
-      "width": 320,
-      "height": 120,
+      "y": 690,
+      "width": 270,
+      "height": 130,
       "color": "4",
-      "text": "## 🚀 LinkedIn API Publish\n\n1. Register image upload → get asset\n2. Upload PNG to LinkedIn\n3. Publish with image (IMAGE type)\n4. Drop link in first comment"
+      "text": "## 🚀 LinkedIn API Publish\n\n1. Register image upload → asset\n2. Upload PNG to LinkedIn\n3. Publish with IMAGE type\n4. Record Post ID"
     },
     {
-      "id": "a1b2c3d4e5f6000b",
+      "id": "f0a1b2c3d4e5f302",
       "type": "text",
-      "x": 390,
-      "y": 700,
-      "width": 320,
-      "height": 120,
+      "x": 310,
+      "y": 690,
+      "width": 270,
+      "height": 130,
       "color": "4",
-      "text": "## 💬 Post-Publish Engagement\n\nSearch trending posts in same field\nDraft 3-5 comment replies\nSend to owner for manual posting\n(Avoid auto-commenting ban risk)"
+      "text": "## 💬 First Comment\n\nWithin 30 min of publishing:\nDrop company website link\nin the first comment\n(No external links in post body!)"
     },
     {
-      "id": "a1b2c3d4e5f6000c",
+      "id": "f0a1b2c3d4e5f303",
       "type": "text",
-      "x": 780,
-      "y": 700,
-      "width": 230,
-      "height": 120,
+      "x": 620,
+      "y": 690,
+      "width": 270,
+      "height": 130,
       "color": "4",
-      "text": "## 📊 Archive\n\nMove draft to published/\nRecord Post ID\nSunday Performance\nReview"
+      "text": "## 🔁 Reply to Comments\n\nWithin 1 hour of publishing:\nReply to ALL comments\nFirst-hour engagement is critical\nfor algorithm boost"
     },
     {
-      "id": "a1b2c3d4e5f60040",
+      "id": "f0a1b2c3d4e5f304",
+      "type": "text",
+      "x": 930,
+      "y": 690,
+      "width": 200,
+      "height": 130,
+      "color": "4",
+      "text": "## 📁 Archive\n\nMove draft to\npublished/ folder\nRecord Post ID\nUpdate perspective log"
+    },
+    {
+      "id": "f0a1b2c3d4e5f305",
+      "type": "text",
+      "x": 0,
+      "y": 850,
+      "width": 560,
+      "height": 80,
+      "text": "**Skill:** linkedin-poster (⚠️ needs LINKEDIN_CLIENT_ID + SECRET config)\n**API:** OAuth 2.0 + ugcPosts v2 | IMAGE type for image posts"
+    },
+    {
+      "id": "f0a1b2c3d4e5f306",
+      "type": "text",
+      "x": 620,
+      "y": 850,
+      "width": 510,
+      "height": 80,
+      "text": "**Algorithm signals:** Comments > Shares > Likes\nFirst hour decides reach | Question endings boost engagement\nPersonal stories + insights = highest interaction type"
+    },
+    {
+      "id": "f0a1b2c3d4e5f400",
       "type": "group",
       "x": -50,
-      "y": 920,
-      "width": 1100,
-      "height": 160,
-      "label": "Tech Stack",
+      "y": 1020,
+      "width": 1200,
+      "height": 200,
+      "label": "Phase 4: Industry Engagement (After Each Post)",
+      "color": "2"
+    },
+    {
+      "id": "f0a1b2c3d4e5f401",
+      "type": "text",
+      "x": 0,
+      "y": 1060,
+      "width": 350,
+      "height": 120,
+      "color": "2",
+      "text": "## 🔍 Search Trending Posts\n\nSearch AI in Finance / AI Anti-fraud\nFind 3-5 high-quality posts\nTarget: CFO, FinTech founders,\nCompliance leaders, AI in Finance KOLs"
+    },
+    {
+      "id": "f0a1b2c3d4e5f402",
+      "type": "text",
+      "x": 400,
+      "y": 1060,
+      "width": 350,
+      "height": 120,
+      "color": "2",
+      "text": "## ✏️ Draft Comments\n\nWrite 3-5 thoughtful comment drafts\nAdd value, not just \"great post!\"\nShow expertise in our domain\nSend drafts to owner via Feishu"
+    },
+    {
+      "id": "f0a1b2c3d4e5f403",
+      "type": "text",
+      "x": 800,
+      "y": 1060,
+      "width": 320,
+      "height": 120,
+      "color": "2",
+      "text": "## 👤 Owner Posts Manually\n\nOwner reviews & posts comments\nNever auto-comment (ban risk!)\nGoal: build visibility in\nAI + Finance community"
+    },
+    {
+      "id": "f0a1b2c3d4e5f500",
+      "type": "group",
+      "x": -50,
+      "y": 1270,
+      "width": 1200,
+      "height": 220,
+      "label": "Phase 5: Weekly Performance Review (Sunday)",
       "color": "1"
     },
     {
-      "id": "a1b2c3d4e5f6000d",
+      "id": "f0a1b2c3d4e5f501",
       "type": "text",
       "x": 0,
-      "y": 960,
-      "width": 500,
-      "height": 80,
-      "text": "**OpenClaw** → Feishu Bot (WebSocket)\n**LinkedIn API** → OAuth 2.0 + ugcPosts v2\n**Image Gen** → HTML/CSS + Playwright headless Chrome"
+      "y": 1310,
+      "width": 280,
+      "height": 140,
+      "color": "1",
+      "text": "## 📊 Data Collection\n\nSunday 8PM Beijing: remind owner\nOwner screenshots LinkedIn\nanalytics dashboard\nSend screenshots to Feishu"
     },
     {
-      "id": "a1b2c3d4e5f6000e",
+      "id": "f0a1b2c3d4e5f502",
       "type": "text",
-      "x": 560,
-      "y": 960,
-      "width": 450,
+      "x": 320,
+      "y": 1310,
+      "width": 280,
+      "height": 140,
+      "color": "1",
+      "text": "## 🔬 AI Analysis\n\nCompare impressions / engagement /\ncomments across all posts\nIdentify best-performing post\nAnalyze what worked & why"
+    },
+    {
+      "id": "f0a1b2c3d4e5f503",
+      "type": "text",
+      "x": 640,
+      "y": 1310,
+      "width": 280,
+      "height": 140,
+      "color": "1",
+      "text": "## 📋 Strategy Optimization\n\nOutput: performance report\n+ next week content strategy\nAdjust topics / tone / format\nFeed insights back to Phase 1"
+    },
+    {
+      "id": "f0a1b2c3d4e5f504",
+      "type": "text",
+      "x": 960,
+      "y": 1310,
+      "width": 170,
+      "height": 140,
+      "color": "1",
+      "text": "## 🔮 Future\n\nPlan B: LinkedIn\nAPI auto-pull\n(needs r_member_\nsocial scope)\nCurrently: manual\nscreenshot"
+    },
+    {
+      "id": "f0a1b2c3d4e5f600",
+      "type": "group",
+      "x": -50,
+      "y": 1540,
+      "width": 1200,
+      "height": 180,
+      "label": "Tech Stack & Config",
+      "color": "6"
+    },
+    {
+      "id": "f0a1b2c3d4e5f601",
+      "type": "text",
+      "x": 0,
+      "y": 1580,
+      "width": 380,
+      "height": 100,
+      "text": "**OpenClaw** → Feishu Bot (WebSocket)\n**LinkedIn API** → OAuth 2.0 + ugcPosts v2\n**Image Gen** → HTML/CSS + Playwright / OpenAI\n**News** → Brave Search API + RSS feeds"
+    },
+    {
+      "id": "f0a1b2c3d4e5f602",
+      "type": "text",
+      "x": 420,
+      "y": 1580,
+      "width": 380,
+      "height": 100,
+      "text": "**Schedule:** Mon/Wed/Fri posting\n**Publish window:** Tue/Thu 8-9 AM AEST\n**Heartbeat cron** → auto-trigger\n**Briefing:** Daily 8:30 AM Beijing (UTC 0:30)"
+    },
+    {
+      "id": "f0a1b2c3d4e5f603",
+      "type": "text",
+      "x": 840,
+      "y": 1580,
+      "width": 290,
+      "height": 100,
+      "text": "**Hashtag strategy:**\n1-2 broad (#AI #FinTech #Leadership)\n+ 2-3 niche (#FraudDetection\n#AICompliance #CFO #RegTech)\n3-5 per post, at the end"
+    },
+    {
+      "id": "f0a1b2c3d4e5f700",
+      "type": "group",
+      "x": -50,
+      "y": 1770,
+      "width": 1200,
+      "height": 140,
+      "label": "Future Upgrade Path",
+      "color": "6"
+    },
+    {
+      "id": "f0a1b2c3d4e5f701",
+      "type": "text",
+      "x": 0,
+      "y": 1810,
+      "width": 380,
       "height": 80,
-      "text": "**Posting Frequency:** Mon / Wed / Fri\n**Publish Time:** Tue/Thu 8-9 AM AEST\n**Heartbeat Auto-Trigger** → Cron scheduled check"
+      "text": "🎬 **Video content** if text ROI plateaus\n2-3 min max | Script by AI | Subtitles mandatory\n(80% watch on mute) | Skill: video-subtitles"
+    },
+    {
+      "id": "f0a1b2c3d4e5f702",
+      "type": "text",
+      "x": 420,
+      "y": 1810,
+      "width": 380,
+      "height": 80,
+      "text": "📈 **Auto analytics** via LinkedIn API\nNeeds Community Management API approval\nr_member_social scope → auto-pull metrics\nEliminate manual screenshot step"
+    },
+    {
+      "id": "f0a1b2c3d4e5f703",
+      "type": "text",
+      "x": 840,
+      "y": 1810,
+      "width": 290,
+      "height": 80,
+      "text": "🤖 **linkedin-poster skill**\nStatus: ⚠️ pending config\nNeeds: LINKEDIN_CLIENT_ID\n+ LINKEDIN_CLIENT_SECRET"
     }
   ],
   "edges": [
     {
-      "id": "e1b2c3d4e5f60001",
-      "fromNode": "a1b2c3d4e5f60002",
+      "id": "e0a1b2c3d4e5f001",
+      "fromNode": "f0a1b2c3d4e5f101",
       "fromSide": "right",
-      "toNode": "a1b2c3d4e5f60003",
+      "toNode": "f0a1b2c3d4e5f102",
       "toSide": "left",
       "toEnd": "arrow",
-      "label": "Topic"
+      "label": "Pick topic"
     },
     {
-      "id": "e1b2c3d4e5f60002",
-      "fromNode": "a1b2c3d4e5f60003",
+      "id": "e0a1b2c3d4e5f002",
+      "fromNode": "f0a1b2c3d4e5f102",
       "fromSide": "right",
-      "toNode": "a1b2c3d4e5f60004",
+      "toNode": "f0a1b2c3d4e5f103",
       "toSide": "left",
       "toEnd": "arrow",
       "label": "Draft"
     },
     {
-      "id": "e1b2c3d4e5f60003",
-      "fromNode": "a1b2c3d4e5f60004",
+      "id": "e0a1b2c3d4e5f003",
+      "fromNode": "f0a1b2c3d4e5f103",
+      "fromSide": "right",
+      "toNode": "f0a1b2c3d4e5f104",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "Gen image"
+    },
+    {
+      "id": "e0a1b2c3d4e5f004",
+      "fromNode": "f0a1b2c3d4e5f104",
       "fromSide": "bottom",
-      "toNode": "a1b2c3d4e5f60008",
+      "toNode": "f0a1b2c3d4e5f201",
       "toSide": "top",
       "toEnd": "arrow",
       "label": "Preview"
     },
     {
-      "id": "e1b2c3d4e5f60004",
-      "fromNode": "a1b2c3d4e5f60008",
+      "id": "e0a1b2c3d4e5f005",
+      "fromNode": "f0a1b2c3d4e5f201",
       "fromSide": "right",
-      "toNode": "a1b2c3d4e5f60009",
+      "toNode": "f0a1b2c3d4e5f202",
       "toSide": "left",
       "toEnd": "arrow",
       "label": "Review"
     },
     {
-      "id": "e1b2c3d4e5f60005",
-      "fromNode": "a1b2c3d4e5f60009",
+      "id": "e0a1b2c3d4e5f006",
+      "fromNode": "f0a1b2c3d4e5f202",
+      "fromSide": "right",
+      "toNode": "f0a1b2c3d4e5f203",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "color": "3",
+      "label": "Needs changes"
+    },
+    {
+      "id": "e0a1b2c3d4e5f007",
+      "fromNode": "f0a1b2c3d4e5f203",
+      "fromSide": "left",
+      "toNode": "f0a1b2c3d4e5f201",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "color": "3",
+      "label": "Re-preview"
+    },
+    {
+      "id": "e0a1b2c3d4e5f008",
+      "fromNode": "f0a1b2c3d4e5f202",
       "fromSide": "bottom",
-      "toNode": "a1b2c3d4e5f6000a",
+      "toNode": "f0a1b2c3d4e5f301",
       "toSide": "top",
       "toEnd": "arrow",
       "color": "4",
       "label": "Owner says \"Go\""
     },
     {
-      "id": "e1b2c3d4e5f60006",
-      "fromNode": "a1b2c3d4e5f6000a",
+      "id": "e0a1b2c3d4e5f009",
+      "fromNode": "f0a1b2c3d4e5f301",
       "fromSide": "right",
-      "toNode": "a1b2c3d4e5f6000b",
+      "toNode": "f0a1b2c3d4e5f302",
       "toSide": "left",
       "toEnd": "arrow",
-      "label": "Post-publish"
+      "label": "Within 30 min"
     },
     {
-      "id": "e1b2c3d4e5f60007",
-      "fromNode": "a1b2c3d4e5f6000b",
+      "id": "e0a1b2c3d4e5f010",
+      "fromNode": "f0a1b2c3d4e5f302",
       "fromSide": "right",
-      "toNode": "a1b2c3d4e5f6000c",
+      "toNode": "f0a1b2c3d4e5f303",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "Within 1 hour"
+    },
+    {
+      "id": "e0a1b2c3d4e5f011",
+      "fromNode": "f0a1b2c3d4e5f303",
+      "fromSide": "right",
+      "toNode": "f0a1b2c3d4e5f304",
       "toSide": "left",
       "toEnd": "arrow",
       "label": "Archive"
+    },
+    {
+      "id": "e0a1b2c3d4e5f012",
+      "fromNode": "f0a1b2c3d4e5f304",
+      "fromSide": "bottom",
+      "toNode": "f0a1b2c3d4e5f401",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "Engagement"
+    },
+    {
+      "id": "e0a1b2c3d4e5f013",
+      "fromNode": "f0a1b2c3d4e5f401",
+      "fromSide": "right",
+      "toNode": "f0a1b2c3d4e5f402",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "Draft replies"
+    },
+    {
+      "id": "e0a1b2c3d4e5f014",
+      "fromNode": "f0a1b2c3d4e5f402",
+      "fromSide": "right",
+      "toNode": "f0a1b2c3d4e5f403",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "Send to owner"
+    },
+    {
+      "id": "e0a1b2c3d4e5f015",
+      "fromNode": "f0a1b2c3d4e5f501",
+      "fromSide": "right",
+      "toNode": "f0a1b2c3d4e5f502",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "Analyze"
+    },
+    {
+      "id": "e0a1b2c3d4e5f016",
+      "fromNode": "f0a1b2c3d4e5f502",
+      "fromSide": "right",
+      "toNode": "f0a1b2c3d4e5f503",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "Optimize"
+    },
+    {
+      "id": "e0a1b2c3d4e5f017",
+      "fromNode": "f0a1b2c3d4e5f503",
+      "fromSide": "right",
+      "toNode": "f0a1b2c3d4e5f504",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "Future"
+    },
+    {
+      "id": "e0a1b2c3d4e5f018",
+      "fromNode": "f0a1b2c3d4e5f503",
+      "fromSide": "top",
+      "toNode": "f0a1b2c3d4e5f101",
+      "toSide": "bottom",
+      "toEnd": "arrow",
+      "color": "1",
+      "label": "Feed back to next week"
     }
   ]
 }
