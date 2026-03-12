@@ -1,0 +1,349 @@
+{
+  "nodes": [
+    {
+      "id": "a0b1c2d3e4f50001",
+      "type": "text",
+      "x": 250,
+      "y": -120,
+      "width": 500,
+      "height": 60,
+      "color": "6",
+      "text": "# 🦞 2026-03-12 LinkedIn 发帖实录"
+    },
+    {
+      "id": "a0b1c2d3e4f50010",
+      "type": "group",
+      "x": -50,
+      "y": 0,
+      "width": 700,
+      "height": 160,
+      "label": "1. 主人提需求",
+      "color": "5"
+    },
+    {
+      "id": "a0b1c2d3e4f50011",
+      "type": "text",
+      "x": 0,
+      "y": 30,
+      "width": 300,
+      "height": 100,
+      "color": "5",
+      "text": "## 💡 主人发起\n\n\"写一篇 How I use OpenClaw\nfor auto-LinkedIn post\"\n话题：Behind the Scenes 类型"
+    },
+    {
+      "id": "a0b1c2d3e4f50012",
+      "type": "text",
+      "x": 350,
+      "y": 30,
+      "width": 280,
+      "height": 100,
+      "color": "5",
+      "text": "## 🎯 定位\n\n内容支柱：Behind the Scenes\n展示 AI Agent 实践者身份\n不是推销 Concur"
+    },
+    {
+      "id": "a0b1c2d3e4f50020",
+      "type": "group",
+      "x": -50,
+      "y": 210,
+      "width": 700,
+      "height": 280,
+      "label": "2. 豆宝写稿 + 迭代",
+      "color": "5"
+    },
+    {
+      "id": "a0b1c2d3e4f50021",
+      "type": "text",
+      "x": 0,
+      "y": 240,
+      "width": 320,
+      "height": 110,
+      "color": "5",
+      "text": "## ✍️ V1 初稿\n\nHook: \"I built an AI agent\nthat writes my LinkedIn posts.\"\n按 linkedin-content skill 架构写"
+    },
+    {
+      "id": "a0b1c2d3e4f50022",
+      "type": "text",
+      "x": 370,
+      "y": 240,
+      "width": 260,
+      "height": 110,
+      "color": "3",
+      "text": "## 🔄 主人反馈\n\n\"第一行要更抓眼球\"\n改成她的版本：\n\"I used OpenClaw for my\nLinkedIn posts and automation.\""
+    },
+    {
+      "id": "a0b1c2d3e4f50023",
+      "type": "text",
+      "x": 0,
+      "y": 380,
+      "width": 320,
+      "height": 80,
+      "color": "4",
+      "text": "## ✅ V2 定稿\n\n主人说「可以哇」→ 草稿锁定\n保存到 linkedin-drafts/"
+    },
+    {
+      "id": "a0b1c2d3e4f50024",
+      "type": "text",
+      "x": 370,
+      "y": 380,
+      "width": 260,
+      "height": 80,
+      "text": "**关键改动：**\nHook 从豆宝版 → 主人版\n更直白、更具体、更抓人"
+    },
+    {
+      "id": "a0b1c2d3e4f50030",
+      "type": "group",
+      "x": -50,
+      "y": 540,
+      "width": 700,
+      "height": 160,
+      "label": "3. 配图",
+      "color": "2"
+    },
+    {
+      "id": "a0b1c2d3e4f50031",
+      "type": "text",
+      "x": 0,
+      "y": 570,
+      "width": 320,
+      "height": 100,
+      "color": "2",
+      "text": "## 🎨 主人用 ChatGPT 生图\n\nOpenAI API 额度用完\n豆宝无法自动生成\n主人自己用 ChatGPT 做了一张"
+    },
+    {
+      "id": "a0b1c2d3e4f50032",
+      "type": "text",
+      "x": 370,
+      "y": 570,
+      "width": 260,
+      "height": 100,
+      "color": "2",
+      "text": "## 📱 发到飞书\n\n主人把图发到飞书对话\n豆宝保存到\nlinkedin-drafts/images/"
+    },
+    {
+      "id": "a0b1c2d3e4f50040",
+      "type": "group",
+      "x": -50,
+      "y": 750,
+      "width": 700,
+      "height": 280,
+      "label": "4. 发布遇到问题 → 升级工具",
+      "color": "1"
+    },
+    {
+      "id": "a0b1c2d3e4f50041",
+      "type": "text",
+      "x": 0,
+      "y": 780,
+      "width": 320,
+      "height": 100,
+      "color": "1",
+      "text": "## ❌ linkedin-poster 只能发纯文字\n\n第一次发出去没带图\n发现 runner.cjs 不支持\n图片上传功能"
+    },
+    {
+      "id": "a0b1c2d3e4f50042",
+      "type": "text",
+      "x": 370,
+      "y": 780,
+      "width": 260,
+      "height": 100,
+      "color": "1",
+      "text": "## 🔍 搜索替代 skill\n\nlinkedin-automation 支持图文\n但 ClawHub API 限流\n装不上"
+    },
+    {
+      "id": "a0b1c2d3e4f50043",
+      "type": "text",
+      "x": 0,
+      "y": 910,
+      "width": 620,
+      "height": 80,
+      "color": "4",
+      "text": "## 🔧 豆宝升级 runner.cjs — 自己加图片上传 + 评论功能\n\nregisterUpload → PUT image → asset URN → IMAGE 类型发帖 | --comment 评论功能"
+    },
+    {
+      "id": "a0b1c2d3e4f50050",
+      "type": "group",
+      "x": -50,
+      "y": 1080,
+      "width": 700,
+      "height": 160,
+      "label": "5. 正式发布",
+      "color": "4"
+    },
+    {
+      "id": "a0b1c2d3e4f50051",
+      "type": "text",
+      "x": 0,
+      "y": 1110,
+      "width": 210,
+      "height": 100,
+      "color": "4",
+      "text": "## 🚀 图文发帖\n\n主人说「重新 push」\n图文一起发布成功\nPost ID: ...5056"
+    },
+    {
+      "id": "a0b1c2d3e4f50052",
+      "type": "text",
+      "x": 250,
+      "y": 1110,
+      "width": 210,
+      "height": 100,
+      "color": "4",
+      "text": "## 💬 自动评论\n\n主人说「帮我自动发」\n评论区第一条：\nOpenClaw 介绍 + CTA"
+    },
+    {
+      "id": "a0b1c2d3e4f50053",
+      "type": "text",
+      "x": 500,
+      "y": 1110,
+      "width": 130,
+      "height": 100,
+      "color": "4",
+      "text": "## 📝 记录\n\n更新\nMEMORY.md\n归档草稿"
+    },
+    {
+      "id": "a0b1c2d3e4f50060",
+      "type": "group",
+      "x": -50,
+      "y": 1290,
+      "width": 700,
+      "height": 140,
+      "label": "复盘 & 收获",
+      "color": "6"
+    },
+    {
+      "id": "a0b1c2d3e4f50061",
+      "type": "text",
+      "x": 0,
+      "y": 1320,
+      "width": 320,
+      "height": 80,
+      "text": "✅ linkedin-poster 升级：图文+评论\n✅ 内容支柱确定：4 pillar 策略\n✅ 人设定位：AI Agent 实践者"
+    },
+    {
+      "id": "a0b1c2d3e4f50062",
+      "type": "text",
+      "x": 370,
+      "y": 1320,
+      "width": 260,
+      "height": 80,
+      "text": "⚠️ OpenAI 图片额度需充值\n⚠️ 旧测试帖需手动删除\n📌 下次发帖可全自动"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0b1c2d3e4f50001",
+      "fromNode": "a0b1c2d3e4f50011",
+      "fromSide": "right",
+      "toNode": "a0b1c2d3e4f50012",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0b1c2d3e4f50002",
+      "fromNode": "a0b1c2d3e4f50012",
+      "fromSide": "bottom",
+      "toNode": "a0b1c2d3e4f50021",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "开始写"
+    },
+    {
+      "id": "e0b1c2d3e4f50003",
+      "fromNode": "a0b1c2d3e4f50021",
+      "fromSide": "right",
+      "toNode": "a0b1c2d3e4f50022",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "预览"
+    },
+    {
+      "id": "e0b1c2d3e4f50004",
+      "fromNode": "a0b1c2d3e4f50022",
+      "fromSide": "bottom",
+      "toNode": "a0b1c2d3e4f50023",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "4",
+      "label": "修改后通过"
+    },
+    {
+      "id": "e0b1c2d3e4f50005",
+      "fromNode": "a0b1c2d3e4f50023",
+      "fromSide": "bottom",
+      "toNode": "a0b1c2d3e4f50031",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "需要配图"
+    },
+    {
+      "id": "e0b1c2d3e4f50006",
+      "fromNode": "a0b1c2d3e4f50031",
+      "fromSide": "right",
+      "toNode": "a0b1c2d3e4f50032",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0b1c2d3e4f50007",
+      "fromNode": "a0b1c2d3e4f50032",
+      "fromSide": "bottom",
+      "toNode": "a0b1c2d3e4f50041",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "尝试发布"
+    },
+    {
+      "id": "e0b1c2d3e4f50008",
+      "fromNode": "a0b1c2d3e4f50041",
+      "fromSide": "right",
+      "toNode": "a0b1c2d3e4f50042",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "color": "1",
+      "label": "找方案"
+    },
+    {
+      "id": "e0b1c2d3e4f50009",
+      "fromNode": "a0b1c2d3e4f50042",
+      "fromSide": "bottom",
+      "toNode": "a0b1c2d3e4f50043",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "color": "4",
+      "label": "自己动手"
+    },
+    {
+      "id": "e0b1c2d3e4f50010",
+      "fromNode": "a0b1c2d3e4f50043",
+      "fromSide": "bottom",
+      "toNode": "a0b1c2d3e4f50051",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "color": "4",
+      "label": "升级成功"
+    },
+    {
+      "id": "e0b1c2d3e4f50011",
+      "fromNode": "a0b1c2d3e4f50051",
+      "fromSide": "right",
+      "toNode": "a0b1c2d3e4f50052",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0b1c2d3e4f50012",
+      "fromNode": "a0b1c2d3e4f50052",
+      "fromSide": "right",
+      "toNode": "a0b1c2d3e4f50053",
+      "toSide": "left",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "e0b1c2d3e4f50013",
+      "fromNode": "a0b1c2d3e4f50053",
+      "fromSide": "bottom",
+      "toNode": "a0b1c2d3e4f50061",
+      "toSide": "top",
+      "toEnd": "arrow"
+    }
+  ]
+}
