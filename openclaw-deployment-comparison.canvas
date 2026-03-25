@@ -1,0 +1,122 @@
+{
+  "nodes": [
+    {
+      "id": "title00000000001",
+      "type": "text",
+      "x": -200,
+      "y": -680,
+      "width": 800,
+      "height": 80,
+      "color": "6",
+      "text": "# 🦞 OpenClaw 三种部署方式深度对比"
+    },
+    {
+      "id": "autoclaw0000001",
+      "type": "text",
+      "x": -1000,
+      "y": -540,
+      "width": 520,
+      "height": 680,
+      "color": "5",
+      "text": "# 🖥️ 本地部署 — AutoClaw\n\n**开发商：** 智谱AI\n**内置模型：** Pony-Alpha-2（GLM-5深度优化）\n**支持模型：** DeepSeek / Kimi / MiniMax / Claude\n**平台：** macOS + Windows\n**月成本：** 免费安装 + API按量计费\n\n---\n\n## ✅ 优点\n- 一键安装，1分钟搞定，无需命令行\n- 数据完全本地，隐私保护最强\n- AutoGLM 浏览器自动化（独家能力）\n- 可直接操作本地文件\n- 模型自由切换（DeepSeek/Claude等）\n- 支持接入飞书\n\n## ❌ 缺点\n- 电脑关机/休眠，虾立刻死亡\n- 占用本地 CPU / 内存\n- 出门断联，无法远程控制\n- 虾拥有完整本地权限，安全双刃剑\n\n---\n\n## 👤 适合谁\n✅ 快速体验 OpenClaw 的新手\n✅ 本地文件处理为主的场景\n✅ 数据隐私要求极高\n❌ 需要 24 小时在线自动化\n❌ 经常离开电脑的人\n\n> 💬 像给电脑装了超级助手，但只有坐在电脑前它才活着"
+    },
+    {
+      "id": "vps00000000001",
+      "type": "text",
+      "x": -340,
+      "y": -540,
+      "width": 520,
+      "height": 680,
+      "color": "4",
+      "text": "# 🌐 VPS自建 — Hostinger + OpenClaw\n\n**服务器：** Hostinger VPS（Ubuntu 24.04）\n**主力模型：** Claude Opus 4.6\n**备选模型：** MiniMax M2.5（降本fallback）\n**通讯：** 飞书 WebSocket\n**月成本：** 服务器 $5-10 + API $3-10\n\n---\n\n## ✅ 优点\n- 7×24小时在线，cron定时任务随便配\n- 可用最强模型 Claude Opus 4.6\n- root权限，完全自主可控\n- 多服务协同（n8n/Dify/PostgreSQL/Redis）\n- 手机飞书随时控制，任何设备可用\n- ClawHub 13700+ skill任意安装\n\n## ❌ 缺点\n- 技术门槛最高（Linux/SSH/Docker/防火墙）\n- 安全需自己负责（CVE-2026-25253漏洞）\n- 前期配置半天到一天\n- 出了问题没有客服\n- 持续月费 + API费用\n- 不能直接操作本地电脑\n\n---\n\n## 👤 适合谁\n✅ 有技术能力的开发者/AI从业者\n✅ 需要24小时自动化\n✅ 追求最强模型能力\n✅ 已有VPS跑其他服务的人\n❌ 不想碰命令行的小白\n❌ 预算极度有限\n\n> 💬 像造了一台永不关机的AI电脑，最自由最强大"
+    },
+    {
+      "id": "feishu000000001",
+      "type": "text",
+      "x": 320,
+      "y": -540,
+      "width": 520,
+      "height": 680,
+      "color": "2",
+      "text": "# ☁️ 云平台托管 — 飞书妙搭\n\n**平台：** 飞书妙搭（字节跳动）\n**部署：** 一键云端，零配置\n**内置模型：** 飞书自带大模型\n**活动：** 首日400万Token，之后每天100-150万\n**活动截止：** 2026年3月31日\n\n---\n\n## ✅ 优点\n- 零门槛，2分钟上线（7秒完成部署）\n- 飞书深度原生集成，直读文档/群聊/日历\n- 活动期间每天免费Token\n- 运维全部飞书负责，无需操心\n- AI修AI，自然语言描述问题自动修\n\n## ❌ 缺点\n- 数据在字节服务器上，隐私硬伤\n- 3月31日活动结束，后续费用未知\n- 飞书自带模型额度有限\n- 定制化空间低，无法装任意skill\n- 平台锁定，虾是飞书的虾\n- 只在飞书生态，不支持Telegram/Discord\n\n---\n\n## 👤 适合谁\n✅ 飞书重度用户/企业团队\n✅ 不想碰技术的小白\n✅ 想先体验再决定\n❌ 对数据隐私敏感\n❌ 需要多平台接入\n❌ 想长期稳定使用\n\n> 💬 拎包入住方案，最快最简单，但房子是租的"
+    },
+    {
+      "id": "compare_table001",
+      "type": "text",
+      "x": -340,
+      "y": 220,
+      "width": 1180,
+      "height": 500,
+      "color": "1",
+      "text": "# 📊 终极对比表\n\n| 维度 | 🖥️ AutoClaw | 🌐 VPS自建 | ☁️ 飞书妙搭 |\n|------|------------|-----------|------------|\n| 部署时间 | 1分钟 | 半天-1天 | 2分钟 |\n| 技术门槛 | 零 | 高 | 零 |\n| 24小时在线 | ❌ | ✅ | ✅ |\n| 数据隐私 | ✅ 完全本地 | ✅ 自己服务器 | ⚠️ 字节服务器 |\n| 模型自由度 | 高 | 最高 | 中 |\n| 最强可用模型 | Pony-Alpha-2 | Claude Opus 4.6 | 飞书自带 |\n| 浏览器自动化 | ✅ AutoGLM | ⚠️ 需配置 | ❌ |\n| 操作本地文件 | ✅ | ❌ | ❌ |\n| 飞书集成深度 | 可连接 | 可连接 | 原生最深 |\n| 定制化空间 | 中 | 最高 | 低 |\n| 月成本 | 免费+API | $8-20 | 活动期免费→未知 |\n| Cron定时任务 | ❌ 需开机 | ✅ | ⚠️ 有限 |\n| 多平台接入 | 飞书为主 | 20+平台 | 仅飞书 |\n| 长期稳定性 | 取决于电脑 | 取决于运维 | 取决于飞书政策 |"
+    },
+    {
+      "id": "recommend_node01",
+      "type": "text",
+      "x": -200,
+      "y": 800,
+      "width": 800,
+      "height": 220,
+      "color": "3",
+      "text": "# 🎯 三句话选择指南\n\n**5分钟后就想用** → ☁️ 飞书妙搭（注意：活动3月31日结束）\n\n**真正拥有自己的虾** → 🌐 VPS自建（前期投入大，长期最自由）\n\n**需要虾帮你操作电脑** → 🖥️ AutoClaw（本地执行力最强，但出门断联）\n\n> 💡 最佳组合：VPS（24h自动化）+ AutoClaw（操作本地文件）双线并行"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge000000000001",
+      "fromNode": "title00000000001",
+      "fromSide": "bottom",
+      "toNode": "autoclaw0000001",
+      "toSide": "top",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "edge000000000002",
+      "fromNode": "title00000000001",
+      "fromSide": "bottom",
+      "toNode": "vps00000000001",
+      "toSide": "top",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "edge000000000003",
+      "fromNode": "title00000000001",
+      "fromSide": "bottom",
+      "toNode": "feishu000000001",
+      "toSide": "top",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "edge000000000004",
+      "fromNode": "autoclaw0000001",
+      "fromSide": "bottom",
+      "toNode": "compare_table001",
+      "toSide": "top",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "edge000000000005",
+      "fromNode": "vps00000000001",
+      "fromSide": "bottom",
+      "toNode": "compare_table001",
+      "toSide": "top",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "edge000000000006",
+      "fromNode": "feishu000000001",
+      "fromSide": "bottom",
+      "toNode": "compare_table001",
+      "toSide": "top",
+      "toEnd": "arrow"
+    },
+    {
+      "id": "edge000000000007",
+      "fromNode": "compare_table001",
+      "fromSide": "bottom",
+      "toNode": "recommend_node01",
+      "toSide": "top",
+      "toEnd": "arrow"
+    }
+  ]
+}
